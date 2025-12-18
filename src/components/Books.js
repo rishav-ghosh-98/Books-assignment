@@ -14,7 +14,7 @@ const Books = () => {
       setSuccessMsg("Book deleted successfully");
       window.location.reload()
             }catch{
-
+                console.error(error);
             }
         }
         return(
